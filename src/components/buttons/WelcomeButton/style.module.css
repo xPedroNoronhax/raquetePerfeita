@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100&display=swap");
+
+.btn {
+  height: 60px;
+  padding: 16px;
+  cursor: pointer;
+  background: #a3e635;
+  border: 1px solid #474e53;
+  outline: none;
+  transition: 1s ease-in-out;
+  color: black;
+  border-radius: 32px;
+  min-width: 120px;
+
+}
+
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #D9F99d;
+}
+
+
+.btn span {
+  color:black;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  
+}

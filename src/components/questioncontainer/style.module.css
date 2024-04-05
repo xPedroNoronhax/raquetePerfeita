@@ -1,0 +1,46 @@
+.container {
+  max-width: 600px;
+  width: 600px;
+  background-color: #1e293b;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-top: 16px;
+  
+}
+
+.questionsCounter {
+  border: 1px solid black;
+  padding: 12px;
+  border-radius: 50%;
+  margin-left: 16px;
+  margin-right: 16px;
+  background: #a3e635;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+p {
+  margin: auto;
+}
+
+@media only screen and (max-width: 720px){
+  .container{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1em;
+   
+  }
+
+ 
+}

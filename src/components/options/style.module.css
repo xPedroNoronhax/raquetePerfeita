@@ -1,0 +1,30 @@
+.option {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.4s;
+  width: 480px;
+}
+
+.option:hover {
+  opacity: 1;
+}
+
+.optionSelected {
+  color: greenyellow;
+}
+
+@media only screen and (max-width: 720px){
+  .option{
+    max-width: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}

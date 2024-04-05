@@ -1,0 +1,27 @@
+.welcome {
+  color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    max-width: 800px;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.welcome h1 {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.welcome h2 {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.socialMedias {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+

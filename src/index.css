@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #0f172a;
+}
+
+svg{
+  color: #fff;
+}
+
+p{
+  margin: 0;
+}
